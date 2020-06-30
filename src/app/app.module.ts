@@ -9,6 +9,7 @@ import { VersionParentComponent } from './version-parent/version-parent.componen
 import { VersionChildComponent } from './version-child/version-child.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
+import { CountdownParentV2Component } from './countdown-parent-v2/countdown-parent-v2.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
     VersionParentComponent,
     VersionChildComponent,
     CountdownTimerComponent,
-    CountdownParentComponent
+    CountdownParentComponent,
+    CountdownParentV2Component
   ],
   imports: [
     BrowserModule,
