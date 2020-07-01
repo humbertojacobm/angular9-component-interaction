@@ -10,6 +10,8 @@ import { VersionChildComponent } from './version-child/version-child.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 import { CountdownParentV2Component } from './countdown-parent-v2/countdown-parent-v2.component';
+import { MissioncontrolComponent } from './missioncontrol/missioncontrol.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CountdownParentV2Component } from './countdown-parent-v2/countdown-pare
     VersionChildComponent,
     CountdownTimerComponent,
     CountdownParentComponent,
-    CountdownParentV2Component
+    CountdownParentV2Component,
+    MissioncontrolComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule,
