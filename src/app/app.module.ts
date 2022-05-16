@@ -3,10 +3,28 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NameChildComponent } from './name-child/name-child.component';
+import { NameParentComponent } from './name-parent/name-parent.component';
+import { VersionParentComponent } from './version-parent/version-parent.component';
+import { VersionChildComponent } from './version-child/version-child.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
+import { CountdownParentV2Component } from './countdown-parent-v2/countdown-parent-v2.component';
+import { MissioncontrolComponent } from './missioncontrol/missioncontrol.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NameChildComponent,
+    NameParentComponent,
+    VersionParentComponent,
+    VersionChildComponent,
+    CountdownTimerComponent,
+    CountdownParentComponent,
+    CountdownParentV2Component,
+    MissioncontrolComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule,
